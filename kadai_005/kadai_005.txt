@@ -1,0 +1,27 @@
+PS C:\Users\kondo> cd C:\Users\kondo\OneDrive\デスクトップ\git_challenge
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\kondo\OneDrive\デスクトップ\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/12/03     20:34                git_challenge
+
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/kondo/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> git commit -m "初回コミット"
+[main (root-commit) 40844f3] 初回コミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> git add hello_world.txt     
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> git commit -m "日本語訳を追記"
+[main d828652] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge>
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> git log --oneline                       
+d828652 (HEAD -> main) 日本語訳を追記
+40844f3 初回コミット
+PS C:\Users\kondo\OneDrive\デスクトップ\git_challenge> 
